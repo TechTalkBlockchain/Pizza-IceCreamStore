@@ -1,15 +1,14 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-
-
+    const PZT_Address = "0xBa851Fc4EcD66aa37fF7EF72294245E373ea9BbC";
+    const NGT_Address = "0xC6693a35ACD5a5c1A17c8ac6b2039612Dde7Ed83"; 
 
 const PizzaIceStoreModule = buildModule("PizzaIceStoreModule", (m) => {
-    const NGT_Address = "0x126F143DF1d8DE7f519357eB7D7F8440E31f3321";
-    const PZT_Address = "0x604383A590e0E389557710d0Fce1Ff94441bd27d";
 
-    const token = m.contract("PizzaIceStore", [PZT_Address, NGT_Address]);
+    const store = m.contract("PizzaToken", [PZT_Address, NGT_Address]);
 
-    return { token };
+    return { store };
 });
 
 export default PizzaIceStoreModule;
+
