@@ -1,5 +1,6 @@
 {
   "PizzaTokenModule#PizzaToken": "0xBa851Fc4EcD66aa37fF7EF72294245E373ea9BbC",
   "NairaTokenModule#NairaToken": "0xC6693a35ACD5a5c1A17c8ac6b2039612Dde7Ed83",
-  "PizzaIceStoreModule#PizzaToken": "0x0300cC36e61bcd2d687400212A32a3930713E5D0"
+  "PizzaIceStoreModule#PizzaToken": "0x0300cC36e61bcd2d687400212A32a3930713E5D0",
+  "CrowdFundModule#CrowdFunding": "0x3f24a648ee9BC3C9294EC4e3871C573f7978F4A0"
 }
